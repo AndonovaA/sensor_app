@@ -238,9 +238,7 @@ class _SensorHomeState extends State<SensorHome> {
                 DropdownMenuItem(value: 'SITTING', child: Text('SITTING')),
                 DropdownMenuItem(value: 'STANDING', child: Text('STANDING')),
                 DropdownMenuItem(value: 'WALKING', child: Text('WALKING')),
-                DropdownMenuItem(
-                  value: 'STAIR_CLIMBING',
-                  child: Text('STAIR_CLIMBING'),
+                DropdownMenuItem(value: 'STAIRS', child: Text('STAIRS'),
                 ),
               ],
               onChanged: isRecording
